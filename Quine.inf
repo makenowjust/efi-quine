@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION=0x00010006
+  BASE_NAME=Quine
+  FILE_GUID=953a9ad9-cea3-4e27-8c5a-4523bf904a7b
+  MODULE_TYPE=UEFI_APPLICATION
+  VERSION_STRING=0.1
+  ENTRY_POINT=ShellCEntryLib
+[Sources]
+  Quine.c
+[Packages]
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+[LibraryClasses]
+  UefiLib
+  FileHandleLib
+  ShellLib
+  ShellCEntryLib
