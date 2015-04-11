@@ -47,14 +47,14 @@ $ quine.efi
 | |___|  _|  | |  | |_| | |_| | | | | |  __/
 |_____|_|   |___|  \__\_\\__,_|_|_| |_|\___|
 $ ls
-listed up Quine.c, Quine.inf, QuinePkg.dec and QuinePkg.dsc
+listed up Quine.c, Quine.inf, QuinePkg.dec, QuinePkg.dsc and target.txt
 ```
 
 Final, check Quine!
 
 ```console
 on Ubuntu in directory edk2/QuinePkg
-$ for file in Quine.c Quine.inf QuinePkg.dec QuinePkg.dsc; do diff $file /boot/efi/EFI/quine/$file; done
+$ for file in Quine.c Quine.inf QuinePkg.dec QuinePkg.dsc target.txt; do diff $file /boot/efi/EFI/quine/$file; done
 ```
 
 
