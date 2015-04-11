@@ -1,4 +1,4 @@
-# uefi-quine
+# efi-quine
 
 The [Quine](http://en.wikipedia.org/wiki/Quine_%28computing%29) program run on [UEFI](http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
 
@@ -18,10 +18,10 @@ $ make -c BaseTools
 $ . edksetup.sh
 ```
 
-Second, build uefi-quine:
+Second, build efi-quine:
 
 ```console
-$ git clone https://github.com/MakeNowJust/uefi-quine.git QuinePkg
+$ git clone https://github.com/MakeNowJust/efi-quine.git QuinePkg
 $ cp QuinePkg/target.txt Conf/target.txt
 $ build
 ```
