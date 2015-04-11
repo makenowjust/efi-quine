@@ -1,6 +1,6 @@
 # efi-quine
 
-The [Quine](http://en.wikipedia.org/wiki/Quine_%28computing%29) program run on [UEFI](http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
+The [Quine](http://en.wikipedia.org/wiki/Quine_%28computing%29) program run on [UEFI](http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) without OS
 
 ## Usage
 
