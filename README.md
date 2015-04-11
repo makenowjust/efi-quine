@@ -4,6 +4,8 @@ The [Quine](http://en.wikipedia.org/wiki/Quine_%28computing%29) program run on [
 
 ## Usage
 
+__You can download [Quine.efi](https://github.com/MakeNowJust/uefi-quine/releases/download/v1.0/Quine.efi), and skip to third.__
+
 I tested on Ubuntu 14.10 x64.
 
 First, install [EDK2](https://github.com/tianocore/edk2):
